@@ -1,0 +1,32 @@
+/*
+Theme Name: DarkElements-Swerve
+Theme URI: https://www.guido.site/themes
+Version: 6.3
+Author: Guido
+Author URI: https://www.guido.site
+Template: darkelements
+Description: DarkElements is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Features: sidebar, sidebar navigation, footer widgets, custom header image, custom background, custom logo to replace site title and tagline. For more info please check readme file. Enjoy.
+Tags: two-columns, left-sidebar, custom-background, custom-header, custom-menu, featured-images, footer-widgets, post-formats, sticky-post, blog, editor-style, microformats, translation-ready
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: darkelements
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+#content {
+    /*width: 80%;    */
+
+}
+
+#content p a,
+#content li a {
+    text-shadow: 1px 1px #e77776;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    figure.alignleft, img.alignleft, figure.alignright, img.alignright {
+        float:none;
+    }
+}
